@@ -9,3 +9,7 @@ I get emails from friends connecting me with their friends or acquaintances who 
 Submit a PR, please! Add resources you love (free or cheap preferred), correct my wording, add a tip I didn't think of, remove something outdated, etc. 
 
 People who are learning right now are the best people to submit changes to this page. If you have a resource that you love, I'd love to see it. If you've never contributed to an open-source project before, I'd love to help you! The [Don't Be Afraid to Commit](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/) tutorial is a great place to start. 
+
+## Something is broken! 
+
+File an issue, please! I'm also using this as a way to teach myself to use Bootstrap, so I'm fiddling with buttons that show and hide things. Things that work in Chrome for me might not work the same way for you, so please let me know! 
