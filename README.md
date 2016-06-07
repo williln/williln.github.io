@@ -1,4 +1,4 @@
-# williln.github.io
+# [williln.github.io](http://williln.github.io/)
 Catchall website for things I want to share with people. 
 
 ## Why does this page exist?
