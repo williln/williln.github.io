@@ -6,81 +6,81 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/journal/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="swag.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container outer">
             <div class="jumbotron">
                 <h1>So you want to learn to code 💻</h1>
-                <p class>Connect with resources that will help you learn Python and Django</p>
+                <p class="text-center">Connect with resources that will help you learn Python and Django</p>
             </div>
-        </div>
-        <div class="container">
-            <div class="container">
-                <p>I don't have a formal coding background. I have a Bachelor's and a Master's in English. My first job out of college
-                    was selling wedding dresses. My first job out of grad school was selling books. I don't do a ton of coding in my spare time. I was incredibly fortunate to find a job that paid me for the time they spent teaching me to code, and then placed me with a department in the that organization. Even those positions like that are rare (though they really shouldn't be), I learned that you don't need to have a formal computer science education in order to build websites. Now, I give talks at tech conferences about how my background in the liberal arts makes me a better developer. </p>
-                <p>📚 In fact, many of the core developers of Python and Django don't have a formal CS education!</p>
-                <p>A thing that happens a lot is this:</p>
-                <ul>
-                    <li>😁 A friend learns that one of their friends or colleagues is interested in getting into tech.</li>
-                    <li>📱 That friend asks me if they can connect me with this person.</li>
-                    <li>👋 I say, Of course! I love getting to know new people and helping them break into a new skill and possibly a new career.</li>
-                    <li>💌 I write an email that contains much of the information you see on this site. This usually involves digging up the last time I wrote an email like this, so I don't have to hunt for all the links again.</li>
-                </ul>
-                <p>So I thought, Why not make a website with all that information on it? Why not just point people to this page, and let them follow up with me if they need to after that? So here we are!</p>
-            </div>
-            <div class="container">
-                <h1>Situations you might be in</h1>
-                <h2>You have no prior coding experience</h2>
-                <a href="#novice-tips" class="btn btn-info" data-toggle="collapse">Show me tips!</a>
-                <div id="novice-tips" class="collapse">
+            <div class="row">
+                <section class="intro content col-md-6">
+                    <p>I don't have a formal coding background. I have a Bachelor's and a Master's in English. My first job out of college
+                        was selling wedding dresses. My first job out of grad school was selling books. I don't do a ton of coding in my spare time. I was incredibly fortunate to find a job that paid me for the time they spent teaching me to code, and then placed me with a department in the that organization. Even those positions like that are rare (though they really shouldn't be), I learned that you don't need to have a formal computer science education in order to build websites. Now, I give talks at tech conferences about how my background in the liberal arts makes me a better developer. </p>
+                    <p>📚 In fact, many of the core developers of Python and Django don't have a formal CS education!</p>
+                    <p>A thing that happens a lot is this:</p>
                     <ul>
-                        <li>Take some tutorials. All of the ones listed below are free online (though feel free to buy the book, when it's available, or make a donation to the author for their work).
-                            <ul>
-                                <li>💖 <a href="http://tutorial.djangogirls.org/en/">Django Girls Tutorial</a> → Start with this one. It assumes absolutely no prior knowledge, and will teach you how the internet works, HTML, CSS, Python, and Django. By the end of the tutorial (which takes about 8 hours start to finish) you'll have a fully working blog written in Django!</li>
-                                <li>🦄 <a href="https://docs.djangoproject.com/en/stable/intro/tutorial01/">The Django "Polls" Tutorial</a> → Assumes some prior knowledge of Python and HTML. Some of this will be review from the Django Girls tutorial, but a lot of it will be new, or will go a little deeper than the Django Girls tutorial.</li>
-                                <li>🐍 <a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a> → This pure Python tutorial will teach you the parts of Python you didn't learn in the prior two tutorials.</li>
-                                <li>📈 <a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a> → This book is free online (and also available for purchase as a hard copy), and will show you some ways you can use Python to make your life or current office job a lot easier. </li>
-                                <li>🌻 This <a href="https://tpinecone.gitbooks.io/build-a-bot-workshop/content/">Twitter Bot</a> tutorial is a fun way to learn some Python and do something totally frivolous with it. </li>
-                            </ul>
-                        </li>
-                        <li>Attend some meetups in your community.
-                            <ul>
-                                <li>🌎 <a href="http://www.meetup.com/">Meetup</a> is your friend! Search for "Python" or "Django" in your city and see what comes up. </li>
-                                <li>🙋🏽 Find out if your city has a <a href="http://www.pyladies.com/">PyLadies</a> chapter.</li>
-                                <li>📢 No luck? <a href="http://remote.pyladies.com/index.html">PyLadies Remote</a> has monthly free online workshops!</li>
-                                <li>🗣 Get together for a <a href='http://www.weeklypython.chat/'>Weekly Python Chat</a>
-                            </ul>
-                        </li>
-                        <li>Attend a technical conference near you (and apply for financial aid if you need it)
-                            <ul>
-                                <li>🌏 The <a href="http://www.pycon.org/">PyCon</a> website has a list of all the Python conferences worldwide.</li>
-                                <li>🔔 <a href="http://djangocon.us">DjangoCon US</a> and <a href="http://djangocon.eu">DjangoCon Europe</a> are friendly, accessible, small Django conferences that offer significant financial aid to attendees who are underrepresented in the tech industry. DjangoCon US generally happens in mid-to-late summer, and DjangoCon Europe is generally in late spring. </li>
-                            </ul>
-                        </li>
-                        <li>Attend a free or low-cost workshop in your community.
-                            <ul>
-                                <li>🙆🏻 You know what's better than doing the Django Girls tutorial online? Doing it in person with friends! Sign up for the <a href="https://djangogirls.org/">Django Girls mailing list</a> to be notified when there's a new, free workshop in your city.</li>
-                                <li>💻 See if there's a <a href="https://www.girldevelopit.com/">Girl Develop It</a> chapter in your city. Their whole mission is to provide low-cost programming workshops for women.</li>
-                            </ul>
-                        </li>
-                        <li>Get on Twitter, IRC, and/or Slack and start asking questions. Use the #python, #django, #djangogirls, and #pyladies hashtags to ask questions! </li>
-                        <li>Start contributing to an open source project. A great place to start is by making corrections to documentation and tutorials!
-                            <ul>
-                                <li>💡 The <a href="https://dont-be-afraid-to-commit.readthedocs.io/en/latest/">Don't Be Afraid to Commit</a> tutorial will guide you through making your first commit to an open source project. All you'll do is add your name or initials to the list of everyone else who has done this tutorial, but along the way you'll learn about branching, pull requesting, merging, and using git and GitHub!</li>
-                                <li>🐝 <a href="http://pybee.org/">PyBee</a> is an open source Python project, and its maintainers are eager to mentor new developers.</li>
-                                <li>🍪 <a href="https://github.com/pydanny/cookiecutter-django">Cookiecutter</a> is a set of open source projects that provide awesome templates in several languages for different kinds of projects. Its founders also wrote Two Scoops of Django, and would love to mentor you through your first commit.</li>
-                            </ul>
-                        </li>
+                        <li>😁 A friend learns that one of their friends or colleagues is interested in getting into tech.</li>
+                        <li>📱 That friend asks me if they can connect me with this person.</li>
+                        <li>👋 I say, Of course! I love getting to know new people and helping them break into a new skill and possibly a new career.</li>
+                        <li>💌 I write an email that contains much of the information you see on this site. This usually involves digging up the last time I wrote an email like this, so I don't have to hunt for all the links again.</li>
                     </ul>
-                </div>
+                    <p>So I thought, Why not make a website with all that information on it? Why not just point people to this page, and let them follow up with me if they need to after that? So here we are!</p>
+                </section>
+                <section class="questions content col-md-6">
+                    <h1>Situations you might be in</h1>
+                    <h2><a href="#novice-tips" class="btn btn-lg btn-info" data-toggle="collapse">You have no prior coding experience</a></h2>
+                    <div id="novice-tips" class="collapse">
+                        <ul>
+                            <li>Take some tutorials. All of the ones listed below are free online (though feel free to buy the book, when it's available, or make a donation to the author for their work).
+                                <ul>
+                                    <li>💖 <a href="http://tutorial.djangogirls.org/en/">Django Girls Tutorial</a> → Start with this one. It assumes absolutely no prior knowledge, and will teach you how the internet works, HTML, CSS, Python, and Django. By the end of the tutorial (which takes about 8 hours start to finish) you'll have a fully working blog written in Django!</li>
+                                    <li>🦄 <a href="https://docs.djangoproject.com/en/stable/intro/tutorial01/">The Django "Polls" Tutorial</a> → Assumes some prior knowledge of Python and HTML. Some of this will be review from the Django Girls tutorial, but a lot of it will be new, or will go a little deeper than the Django Girls tutorial.</li>
+                                    <li>🐍 <a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a> → This pure Python tutorial will teach you the parts of Python you didn't learn in the prior two tutorials.</li>
+                                    <li>📈 <a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a> → This book is free online (and also available for purchase as a hard copy), and will show you some ways you can use Python to make your life or current office job a lot easier. </li>
+                                    <li>🌻 This <a href="https://tpinecone.gitbooks.io/build-a-bot-workshop/content/">Twitter Bot</a> tutorial is a fun way to learn some Python and do something totally frivolous with it. </li>
+                                </ul>
+                            </li>
+                            <li>Attend some meetups in your community.
+                                <ul>
+                                    <li>🌎 <a href="http://www.meetup.com/">Meetup</a> is your friend! Search for "Python" or "Django" in your city and see what comes up. </li>
+                                    <li>🙋🏽 Find out if your city has a <a href="http://www.pyladies.com/">PyLadies</a> chapter.</li>
+                                    <li>📢 No luck? <a href="http://remote.pyladies.com/index.html">PyLadies Remote</a> has monthly free online workshops!</li>
+                                    <li>🗣 Get together for a <a href='http://www.weeklypython.chat/'>Weekly Python Chat</a>
+                                </ul>
+                            </li>
+                            <li>Attend a technical conference near you (and apply for financial aid if you need it)
+                                <ul>
+                                    <li>🌏 The <a href="http://www.pycon.org/">PyCon</a> website has a list of all the Python conferences worldwide.</li>
+                                    <li>🔔 <a href="http://djangocon.us">DjangoCon US</a> and <a href="http://djangocon.eu">DjangoCon Europe</a> are friendly, accessible, small Django conferences that offer significant financial aid to attendees who are underrepresented in the tech industry. DjangoCon US generally happens in mid-to-late summer, and DjangoCon Europe is generally in late spring. </li>
+                                </ul>
+                            </li>
+                            <li>Attend a free or low-cost workshop in your community.
+                                <ul>
+                                    <li>🙆🏻 You know what's better than doing the Django Girls tutorial online? Doing it in person with friends! Sign up for the <a href="https://djangogirls.org/">Django Girls mailing list</a> to be notified when there's a new, free workshop in your city.</li>
+                                    <li>💻 See if there's a <a href="https://www.girldevelopit.com/">Girl Develop It</a> chapter in your city. Their whole mission is to provide low-cost programming workshops for women.</li>
+                                </ul>
+                            </li>
+                            <li>Get on Twitter, IRC, and/or Slack and start asking questions. Use the #python, #django, #djangogirls, and #pyladies hashtags to ask questions! </li>
+                            <li>Start contributing to an open source project. A great place to start is by making corrections to documentation and tutorials!
+                                <ul>
+                                    <li>💡 The <a href="https://dont-be-afraid-to-commit.readthedocs.io/en/latest/">Don't Be Afraid to Commit</a> tutorial will guide you through making your first commit to an open source project. All you'll do is add your name or initials to the list of everyone else who has done this tutorial, but along the way you'll learn about branching, pull requesting, merging, and using git and GitHub!</li>
+                                    <li>🐝 <a href="http://pybee.org/">PyBee</a> is an open source Python project, and its maintainers are eager to mentor new developers.</li>
+                                    <li>🍪 <a href="https://github.com/pydanny/cookiecutter-django">Cookiecutter</a> is a set of open source projects that provide awesome templates in several languages for different kinds of projects. Its founders also wrote Two Scoops of Django, and would love to mentor you through your first commit.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
-        </div>
-        <div class="text-center center-block">
-            <a href="https://github.com/williln"><i id="social-gh" class="fa fa-github fa-3x social"></i></a>
-            <a href="https://twitter.com/laceynwilliams"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-            <a href="mailto:laceynwilliams@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            <div class="text-center center-block social">
+                <a title="GitHub" href="https://github.com/williln"><i id="social-gh" class="fa fa-github fa-3x social"></i></a>
+                <a title="Twitter" href="https://twitter.com/laceynwilliams"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a title="Email" href="mailto:laceynwilliams@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
         </div>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </html>
