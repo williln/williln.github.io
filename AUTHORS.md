@@ -6,7 +6,7 @@
 
 ## Contributors 
 
-- Carol Willilg ([@willingc](https://github.com/willingc))
+- Carol Willing ([@willingc](https://github.com/willingc))
 - Kenneth Love ([@kennethlove](https://github.com/kennethlove))
 - Matt Olsen ([@digwanderlust](https://github.com/digwanderlust))
 - Philip James ([@phildini](https://github.com/phildini))
