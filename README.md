@@ -18,5 +18,5 @@ File an issue, please! I'm also using this as a way to teach myself to use Boots
 
 ## Special Thanks 
 
-To everyone who has submitted pull requests, filed issues, suggested new resources, helped with design, and generally supported this project! Thanks to all the [contributors](AUTHORS.md). :sparkle_heart:
+To everyone who has submitted pull requests, filed issues, suggested new resources, helped with design, and generally supported this project! Thanks to all the [contributors](AUTHORS.md). :sparkling_heart:
 
