@@ -1,14 +1,42 @@
+body {
+    background-color: lightgray;
+}
+
 .outer {
     margin: 2rem auto;
     padding: 0;
 }
 
+.jumbotron {
+    border: medium solid #7BA9CC;
+}
+
+#jumbotron-headline {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    font-style: italic;
+}
+
+#jumbotron-subheading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
 .content {
     font-size: 1.8rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content p {
     line-height: 1.8;
+}
+
+#situations-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .questions h1 {
@@ -26,9 +54,45 @@
 .questions .btn {
     background-color: rgb(235, 104, 100);
     border-color: #e22620;
+    width: 100%;
 }
 
 .questions .btn:hover,
 .questions .btn:active {
     background-color: #e22620;
+}
+
+.panel {
+    border-color: #e22620;
+}
+
+.panel .panel-heading {
+    background-color: rgb(235, 104, 100);
+}
+
+.panel-title {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.panel-heading:hover {
+    background-color: #e22620;
+}
+
+.panel-body {
+    background-color: #eeeeee;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+hr {
+    border-color: #7BA9CC;
+    border-width: medium;
+}
+
+.paragraph-divider {
+    border-width: thin;
 }
