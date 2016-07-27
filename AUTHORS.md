@@ -12,3 +12,4 @@
 - Philip James ([@phildini](https://github.com/phildini))
 - Sasha Cuerda ([@scuerda](https://github.com/scuerda))
 - Žan Anderle ([@zanderle](https://github.com/zanderle))
+- David Hickman ([@davidhickman](https://github.com/davidhickman))
