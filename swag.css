@@ -82,6 +82,7 @@ body {
 
 .panel-body {
     background-color: #eeeeee;
+    border-radius: 4px;
 }
 
 a, a:hover {
