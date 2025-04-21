@@ -1,0 +1,40 @@
+# Jekyll build directory
+_site/
+
+# Cache files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.cache/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+.bundle/
+vendor/bundle/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
